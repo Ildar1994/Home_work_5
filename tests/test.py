@@ -28,4 +28,6 @@ def test_otpravka_zaivki():
     #выбрать штат и город
     browser.element('[id="react-select-3-input"]').type('n').press_enter()
     browser.element('[id="react-select-4-input"]').type('d').press_enter()
+    browser.element('[id="submit"]').click()
+
 
